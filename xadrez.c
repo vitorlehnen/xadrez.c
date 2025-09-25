@@ -24,5 +24,18 @@ int main(){
         printf("Esquerda\n");
     }
 
+    //Movimento do cavalo
+    printf("Movimento do cavalo:\n");
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            printf("Esquerda\n");
+            i++;
+        }
+        printf("Cima\n");
+    }
+    
+
     return 0;
 }
